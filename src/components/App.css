@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+hr {
+  height: 4px;
+}
+
+.hr-warning {
+  background-color: #2879F0;
+}
+.hr-success {
+  background-color: #2879F0;
+}
+.hr-primary {
+  background-color: #2879F0;
+}
+.hr-danger {
+  background-color: #2879F0;
+}
+
+.blue {
+  color: #2879F0;
+}
+
+.navbar {
+  border-bottom: 1px solid #2879F0;
+}
+
+.footer {
+  border-top: 5px solid #2879F0;
+}
+
+.navbar-brand h1 {
+  font-size: 30px;
+  line-height: 96px;
+  display: inline;
+}
+
+header.masthead .overlay {
+    background-color: #000000;
+}
+
+.showcase {
+  background-color: #2879F0;
+}
+
+.showcase-image {
+  background-position: center center;
+}
+
+.showcase1 {
+  background-image: url('/img/showcase-1.jpg')
+}
+
+.showcase2 {
+  background-image: url('/img/showcase-2.jpg')
+}
+
+.showcase3 {
+  background-image: url('/img/showcase-3.jpg')
+}
+
+.jumbotron {
+  margin: 0;
+}
+
+.bg {
+  background-image: url('/img/bg.jpg')
+}
+
+.bg .overlay {
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
+.list-group-item i {
+  vertical-align: middle;
+}
+
+
+@media (max-width: 767.98px) {
+  .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    background-color: var(--gray-dark);
+    transition: -webkit-transform .3s ease-in-out;
+    transition: transform .3s ease-in-out;
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .offcanvas-collapse.open {
+    -webkit-transform: translateX(-1rem);
+    transform: translateX(-1rem); /* Account for horizontal padding on navbar */
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: var(--secondary);
+}
+
+.nav-underline .nav-link:hover {
+  color: var(--blue);
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: var(--gray-dark);
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-blue { background-color: #2879F0; }
+
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
