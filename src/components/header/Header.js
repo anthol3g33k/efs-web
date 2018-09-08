@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-          <Link class="navbar-brand" to="/">
+          <Link class="navbar-brand" to="/" rel="follow">
             <img src="/img/logo.jpg" width="84" height="96" class="d-inline-block align-top" alt="" />
             <h1 class="blue ml-4 brand">EFS Grand Est</h1>
           </Link>
@@ -17,13 +17,13 @@ class Header extends Component {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="ml-auto navbar-nav">
               <li class="nav-item">
-                <Link class="nav-link" to="/presentation">Présentation</Link>
+                <Link class="nav-link" to="/presentation" rel="follow">Présentation</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/tarifs">Tarifs</Link>
+                <Link class="nav-link" to="/tarifs" rel="follow">Tarifs</Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/contact">Nous contacter</Link>
+                <Link class="nav-link" to="/contact" rel="follow">Nous contacter</Link>
               </li>
             </ul>
           </div>
