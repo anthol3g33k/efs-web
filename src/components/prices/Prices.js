@@ -74,14 +74,14 @@ class Prices extends Component {
                           <small class="text-muted">Paiement intégral</small>
                         </div>
                         <div class="col-2 my-auto">
-                          <h4 class="blue my-auto">225€</h4>
+                          <h4 class="blue my-auto">115€</h4>
                         </div>
                       </div>
                     </li>
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">2 intervention annuelle</h5>
+                          <h5 class="mb-1">2 interventions annuelle</h5>
                           <small class="text-muted">1er paiement 135€ + 6 prélèvements de 15€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -92,7 +92,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">4 intervention annuelle</h5>
+                          <h5 class="mb-1">4 interventions annuelle</h5>
                           <small class="text-muted">1er paiement 125€ + 9 prélèvements 25€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -103,7 +103,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">6 intervention annuelle</h5>
+                          <h5 class="mb-1">6 interventions annuelle</h5>
                           <small class="text-muted">1er prélèvement 130€ + 10 prélèvements 35€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -114,7 +114,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">12 intervention annuelle</h5>
+                          <h5 class="mb-1">12 interventions annuelle</h5>
                           <small class="text-muted">1er prélèvement 130€ + 12 prélèvements  60€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -201,7 +201,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">2 intervention annuelle</h5>
+                          <h5 class="mb-1">2 interventions annuelle</h5>
                           <small class="text-muted">1er paiement 70€ + 6 prélèvements de 10€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -212,7 +212,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">4 intervention annuelle</h5>
+                          <h5 class="mb-1">4 interventions annuelle</h5>
                           <small class="text-muted">1er paiement 60€ + 9 prélèvements 20€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -223,7 +223,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">6 intervention annuelle</h5>
+                          <h5 class="mb-1">6 interventions annuelle</h5>
                           <small class="text-muted">1 er prélèvement 65€ + 10 prélèvements 27€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
@@ -234,7 +234,7 @@ class Prices extends Component {
                     <li class="list-group-item list-group-item-action flex-column align-items-start">
                       <div class="row">
                         <div class="col-10">
-                          <h5 class="mb-1">12 intervention annuelle</h5>
+                          <h5 class="mb-1">12 interventions annuelle</h5>
                           <small class="text-muted">1er prélèvement 70€ + 12 prélèvements  48€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
