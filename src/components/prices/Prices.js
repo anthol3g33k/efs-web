@@ -51,6 +51,9 @@ class Prices extends Component {
                 </div>
               </div>
             </div>
+            <div class="text-right">
+              <button class="btn btn-success" data-toggle="modal" data-target="#bon-commande">Bon de commande</button>
+            </div>
           </div>
 
           <div id="sepulture-fleurissement-tarifs" class="modal fade" tabindex="-1" role="dialog">
@@ -168,6 +171,9 @@ class Prices extends Component {
                 </div>
               </div>
             </div>
+            <div class="text-right">
+              <button class="btn btn-success" data-toggle="modal" data-target="#bon-commande">Bon de commande</button>
+            </div>
           </div>
 
           <div id="colombarium-fleurissement-tarifs" class="modal fade" tabindex="-1" role="dialog">
@@ -240,6 +246,48 @@ class Prices extends Component {
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="bon-commande" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Bon de commande</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+
+                  <div class="card-deck text-center">
+                    <div class="card mb-4 box-shadow">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Sépulture</h4>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Téléchargez votre bon de commande pour votre sépulture</li>
+                        </ul>
+                        <a class="btn btn-success" target="_blank" href="/pdf/BONCOMSEPULTURE.pdf">Télécharger</a>
+                      </div>
+                    </div>
+
+                    <div class="card mb-4 box-shadow">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Colombarium</h4>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Téléchargez votre bon de commande pour votre colombarium</li>
+                        </ul>
+                        <a class="btn btn-success" target="_blank" href="/pdf/BONCOMCOLOMBARIUM.pdf">Télécharger</a>
+                      </div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>
