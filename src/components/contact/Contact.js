@@ -26,6 +26,10 @@ class Contact extends Component {
                 <span>M. LANNOY Philippe</span>
               </li>
               <li class="list-group-item">
+                <i class="fas fa-map-marked-alt fa-2x fa-fw mr-2"></i>
+                <span>3 Impasse des mûriers, 57925 Distroff, FRANCE</span>
+              </li>
+              <li class="list-group-item">
                 <i class="fas fa-phone fa-2x fa-fw mr-2"></i>
                 <span>07 86 59 64 97</span>
               </li>
