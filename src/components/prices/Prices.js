@@ -104,7 +104,7 @@ class Prices extends Component {
                       <div class="row">
                         <div class="col-10">
                           <h5 class="mb-1">6 interventions annuelle</h5>
-                          <small class="text-muted">1er prélèvement 130€ + 10 prélèvements 35€/mois</small>
+                          <small class="text-muted">1er prélèvement 140€ + 10 prélèvements 35€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
                           <h4 class="blue my-auto">490€</h4>
@@ -115,7 +115,7 @@ class Prices extends Component {
                       <div class="row">
                         <div class="col-10">
                           <h5 class="mb-1">12 interventions annuelle</h5>
-                          <small class="text-muted">1er prélèvement 130€ + 12 prélèvements  60€/mois</small>
+                          <small class="text-muted">1er prélèvement 130€ + 12 prélèvements 60€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
                           <h4 class="blue my-auto">850€</h4>
@@ -235,7 +235,7 @@ class Prices extends Component {
                       <div class="row">
                         <div class="col-10">
                           <h5 class="mb-1">12 interventions annuelle</h5>
-                          <small class="text-muted">1er prélèvement 70€ + 12 prélèvements  48€/mois</small>
+                          <small class="text-muted">1er prélèvement 74€ + 12 prélèvements 48€/mois</small>
                         </div>
                         <div class="col-2 my-auto">
                           <h4 class="blue my-auto">650€</h4>
@@ -271,7 +271,7 @@ class Prices extends Component {
                         <ul class="list-unstyled mt-3 mb-4">
                           <li>Téléchargez votre bon de commande pour votre sépulture</li>
                         </ul>
-                        <a class="btn btn-success" target="_blank" href="/pdf/BONCOMSEPULTURE.pdf">Télécharger</a>
+                        <a class="btn btn-success" target="_blank" href="/pdf/BON_DE_COMMANDE_SEPULTURE.pdf">Télécharger</a>
                       </div>
                     </div>
 
@@ -283,7 +283,7 @@ class Prices extends Component {
                         <ul class="list-unstyled mt-3 mb-4">
                           <li>Téléchargez votre bon de commande pour votre colombarium</li>
                         </ul>
-                        <a class="btn btn-success" target="_blank" href="/pdf/BONCOMCOLOMBARIUM.pdf">Télécharger</a>
+                        <a class="btn btn-success" target="_blank" href="/pdf/BON_DE_COMMANDE_COLOMBARIUM.pdf">Télécharger</a>
                       </div>
                     </div>
                   </div>
