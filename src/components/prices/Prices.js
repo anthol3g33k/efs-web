@@ -38,7 +38,7 @@ class Prices extends Component {
               </div>
               <div class="card mb-4 mt-4 box-shadow">
                 <div class="card-header">
-                  <h5 class="my-0 font-weight-normal">Entretien + fleurissement sépulture</h5>
+                  <h5 class="my-0 font-weight-normal">Entretien + fleurissement</h5>
                 </div>
                 <div class="card-body">
                   <h1 class="card-title pricing-card-title"><small class="text-muted">A partir de </small>115€</h1>
@@ -48,6 +48,19 @@ class Prices extends Component {
                     <li><b>Avec</b> fleurissement</li>
                   </ul>
                   <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#sepulture-fleurissement-tarifs">Voir plus</button>
+                </div>
+              </div>
+              <div class="card mb-4 mt-4 box-shadow">
+                <div class="card-header">
+                  <h5 class="my-0 font-weight-normal">Spécial Toussaint</h5>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">120€</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Entretien unique</li>
+                    <li>Une pomponette</li>
+                    <li>Retrait de la fleur un mois après</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -158,7 +171,7 @@ class Prices extends Component {
               </div>
               <div class="card mb-4 mt-4 box-shadow">
                 <div class="card-header">
-                  <h5 class="my-0 font-weight-normal">Entretien + fleurissement colombarium</h5>
+                  <h5 class="my-0 font-weight-normal">Entretien + fleurissement</h5>
                 </div>
                 <div class="card-body">
                   <h1 class="card-title pricing-card-title"><small class="text-muted">A partir de </small>70€</h1>
@@ -168,6 +181,19 @@ class Prices extends Component {
                     <li><b>Avec</b> fleurissement</li>
                   </ul>
                   <button type="button" class="btn btn-lg btn-block btn-primary" data-toggle="modal" data-target="#colombarium-fleurissement-tarifs">Voir plus</button>
+                </div>
+              </div>
+              <div class="card mb-4 mt-4 box-shadow">
+                <div class="card-header">
+                  <h5 class="my-0 font-weight-normal">Spécial Toussaint</h5>
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title pricing-card-title">75€</h1>
+                  <ul class="list-unstyled mt-3 mb-4">
+                    <li>Entretien unique</li>
+                    <li>Une pomponette</li>
+                    <li>Retrait de la fleur un mois après</li>
+                  </ul>
                 </div>
               </div>
             </div>
