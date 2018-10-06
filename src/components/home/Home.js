@@ -4,8 +4,12 @@ import { Link } from 'react-router-dom'
 class Home extends Component {
   componentDidMount() {
     window.scrollTo(0, 0)
+
+    fetch('https://efs-quotes-api.herokuapp.com/')
+      .then(response  => { return response.json()})
+      .then(data => console.log(data));
   }
-  
+
   render() {
     return (
       <div>
